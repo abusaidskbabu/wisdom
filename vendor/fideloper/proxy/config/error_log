@@ -1,0 +1,4 @@
+[22-May-2021 17:43:56 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Http\Request' not found in /home/vgsleeoa/public_html/vendor/fideloper/proxy/config/trustedproxy.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/vgsleeoa/public_html/vendor/fideloper/proxy/config/trustedproxy.php on line 49

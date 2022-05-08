@@ -1,0 +1,254 @@
+html, body{
+  background: #000;
+  font-family:'Montserrat', sans-serif;
+  border-radius:0;
+  -webkit-appearance:none;
+}
+.elements{
+  padding-bottom: 50px;
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+}
+.infos{
+  margin: 50px;
+  width: 100%;}
+.infos hr{
+  border-top: solid 1px #fff;
+  width: 96%;
+  color: #fff;
+}
+.sd{
+  padding-left: 25px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 38px;
+}
+.borders{
+  background-color:#69c3e8;
+  color:#fff;
+  padding:12px;
+  opacity: 0.8;
+}
+.names{
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 14px;
+  margin-left: 20px;
+  line-height: 1;
+}
+.names img{
+  width: 18px;
+  position: absolute;
+  transform: translate(-30px, 11px);
+}
+.banner_it{
+  position: relative;
+  height: 80vh;
+}
+.banner_it img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.4);
+}
+.ptext{
+    position:absolute;
+    top:45%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing:5px;
+    text-transform:uppercase;
+  }
+  .info{
+    display: table;
+  }
+  .desc{
+    display: table-cell;
+    vertical-align: middle;
+    width:100%;
+    padding-top: 220px;
+  }
+  .header{
+      text-transform: uppercase;
+      letter-spacing:5px; 
+      font-size: 25px;
+      color: #fff !important;
+    font-weight: 600;
+  }
+  .desc hr, .office hr{
+    width: 96%;
+    color: #fff;
+    border-top: 1px solid #fff;
+  }
+  .ptext_ser{
+    position:absolute;
+    top: 20%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:20px;
+    letter-spacing:5px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    color:#fff;
+    padding:15px;
+    font-weight: 200;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+  .ptext_ser .border{
+    opacity: 0.8;
+    color:#fff;
+    padding:15px;
+    position: relative;
+    z-index: 100;
+  }
+  .ptext_ser{
+    padding-right: 50px;
+  }
+  
+  .ptext_ser .border.trans{
+    background-color:transparent;
+  }
+.services{
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.image img{
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  top: 0;
+  transition: top ease 0.5s;
+  z-index: 1;
+}
+.services-img-span {
+  content: '';
+  width: 94%;
+  border: 1px solid #fff;
+  position: absolute;
+  z-index: 999;
+  transform: translate(3.2%, -3.2%);
+}
+.services-img-span:after {
+  content: "";
+  display: block;
+  padding-bottom: 106.5%;
+}
+.service-img img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+.image img:hover{
+  top: 10px;
+}
+.border_img{
+  border: 2px solid #69c3e8;
+  width: 100%;
+  margin-top: 50px;
+  z-index: 5;
+}
+.color{
+  color: #fff;
+}
+.last{
+  padding-bottom: 20px;
+}
+.headers{
+  color: #fff;
+  text-align: center;
+}
+.details{
+  color: #fff !important;
+  text-align: justify !important;
+  text-justify: inter-word !important;
+}
+.normal{
+  color: #fff;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.h3,.h4,.h5,.h6{
+  color: #69c3e8;
+}
+
+.privacy li::before{
+  color: #69c3e8;
+}
+
+.privacy > li::before {
+  content: "• ";
+}
+.privacy{
+  color: #fff;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.list li {
+  padding-left: 2em; 
+  text-indent: -.7em;
+}
+.list li::before{
+  color: #69c3e8;
+}
+
+.list li::before {
+  content: "• ";
+  font-weight: bold;
+  width: 1em;
+}
+.point{
+  color: #69c3e8;
+}
+
+@media(max-width: 767px){
+  .desc{
+    padding-top: 5rem;
+  }
+  .header{
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .sub_menu{
+    color: #fff !important;
+  }
+  .ptext{
+      font-size: 15px;
+  }
+  .pimg2{
+       background-attachment:scroll !important;
+  }
+  .names{
+    font-size: 12px;
+  }
+}
+.col2 {
+  box-sizing: border-box;
+}
+.right-col-text {
+  display: flex;
+  //align-items: center;
+}

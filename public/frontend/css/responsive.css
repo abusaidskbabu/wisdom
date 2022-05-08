@@ -1,0 +1,142 @@
+@media (max-width: 767px) {
+.left_menu ul li {
+    float: left;
+    padding: 5px 5px;
+    margin: 0px;
+}
+.social_icon ul li {
+    padding: 0px 0px;
+}
+.logo{ 
+	display: none;
+}
+.right_menu ul li {
+    padding: 20px 15px;
+    margin: 0px;
+}
+.footer_left ul li a {
+    padding: 10px 2px 10px 2px;
+	float:none;
+}
+.footer_left li a:after,.footer_right li a:after{display:none;}
+.last_copy {text-align: left;}
+.copy{ margin: 27px 0 0 0;}
+.logo_mobile{
+	display:block;
+}
+.footer_right {
+    float: none;
+}
+.footer_right ul li a {
+    padding: 0;
+    float: none;
+}
+.logo_mobile {
+    width: 70px;
+    margin: 5px -15px 5px 2px;
+}
+#bs-example-navbar-collapse-1 {
+    background: rgb(255, 255, 255);
+    width: 100%;
+}
+.nav_full{background:#000}
+
+
+.navbar-collapse {
+    padding-left: 0px;
+}  
+.no_pad{
+	margin-bottom: 10px;
+} 
+.left_menu ul li,.right_menu ul li{
+	float:none !important;
+}
+.nav_full ul{
+	margin-bottom:0;
+}
+.nav_full ul li{
+	background:none;
+	margin:0;
+	padding:5px 0;
+}
+.nav_full ul li a{
+	color:#69c3e8;
+	background: none;
+	margin:0;
+	padding:0 !important;
+}
+#footer{
+	padding-top:30px;
+}
+  .right, .left{
+    display: block;
+    text-align: left;
+    content: "";
+    padding-top: 0px;
+  }
+  .footer li{
+    padding-top: 5px;
+  }
+  .footers li a:after{
+	content:"";
+}
+.footer_center a{
+    font-size: 5px;
+}
+.footer_r{
+	width:100%
+}
+.left_menu {
+    clear: both;
+}
+.social_icon ul li {
+    margin: 10px 39px 10px 0;
+}
+ 
+}
+@media (min-width: 768px) and (max-width: 1390px){
+.logo img{
+max-width: 100%;	
+}
+.social_icon ul li {
+    padding: 0px 0px;
+}
+.left_menu ul li {
+    padding: 5px 5px;
+    margin: 0px;
+}
+.right_menu ul li {
+    padding: 0px 10px;
+    margin: 0px;
+}
+.footer_right ul li a {
+    padding: 20px 2px 10px 2px;
+    float: left;
+}
+.footer_left ul li a {
+    padding: 20px 2px 10px 2px;
+}
+}
+
+@media (max-width: 1410px){
+	.title {
+		top: 37%;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		background: #00000057;
+		padding: 25px;
+	}
+}
+
+@media (max-width: 530px){
+    .middle {
+        top: 65%;
+        left: 10%;
+        transform: translate(-6%, -15px);
+    }
+    .title {
+        top: 5%;
+    }
+}
+
